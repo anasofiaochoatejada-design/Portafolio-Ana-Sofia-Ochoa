@@ -89,21 +89,25 @@ uno por uno */
     flex-direction: row;
    justify-content: center;
 }
-.imagenesbench img {
-    width: auto ;
-    height: 255px;
-    object-fit: contain;
-    align-items: center;
-   
+
+.imagenesbench,
+.imageneskidsbench {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
+.imagenesbench img,
 .imageneskidsbench img {
-    width: auto ;
-    height: 250px;
-    object-fit: contain;
-    align-items: center;
-   
+  height: 220px;        /* mismo alto */
+  width: auto;          /* NO se deforma el ancho */
+  object-fit: contain;  /* nunca se corta */
+  display: block;
 }
+
 
 
 .imagenesperfume img {
@@ -133,6 +137,7 @@ uno por uno */
 .boton:hover {
     background-color: #6E7A57;
 }
+
 
 
 
