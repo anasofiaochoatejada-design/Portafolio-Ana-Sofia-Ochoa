@@ -95,7 +95,7 @@ uno por uno */
     height: 255px;
     object-fit: contain;
     align-items: center;
-   
+   display-items: flex;
 }
 
 .imageneskidsbench img {
@@ -103,7 +103,7 @@ uno por uno */
     height: 250px;
     object-fit: contain;
     align-items: center;
-   
+   display-items: flex;
 }
 .imagenesperfume img {
     width: auto ;
@@ -132,6 +132,7 @@ uno por uno */
 .boton:hover {
     background-color: #6E7A57;
 }
+
 
 
 
