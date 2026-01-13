@@ -91,7 +91,7 @@ uno por uno */
 }
 
 .imagenesbench img {
-    width: auto ;
+    width: 100%;
     height: 255px;
     object-fit: contain;
     align-items: center;
@@ -99,7 +99,7 @@ uno por uno */
 }
 
 .imageneskidsbench img {
-    width: auto ;
+    width: 100%;
     height: 250px;
     object-fit: contain;
     align-items: center;
@@ -132,6 +132,7 @@ uno por uno */
 .boton:hover {
     background-color: #6E7A57;
 }
+
 
 
 
