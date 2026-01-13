@@ -92,7 +92,7 @@ uno por uno */
 
 .imagenesbench img {
     width: auto ;
-    height: 150px;
+    height: 100px;
     object-fit: contain;
     align-items: center;
    
@@ -132,6 +132,7 @@ uno por uno */
 .boton:hover {
     background-color: #6E7A57;
 }
+
 
 
 
