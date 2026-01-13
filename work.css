@@ -1,0 +1,25 @@
+/*hice uno separado para el apartado de work porque el 
+de style me estaba quedando muy largo y no me queria confundir*/
+
+.workcontenedor { 
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.workfotos {
+  width: 35%;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  margin: auto;
+  color: #611B24;
+  align-items: center;
+}
+
+.workfotos img {
+  width: 100%;
+}
+
+.workfotos:hover {
+  opacity: 0.7;
+}

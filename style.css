@@ -1,0 +1,135 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f6f6f6;
+
+}
+
+
+.home {
+    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Arial, sans-serif;
+    background: #f6f6f6;
+    color: #611B24;
+    text-align: center;
+   
+    
+}
+
+.texto{  /*no se me estaba queriendo centrar del todo con text
+    align ni justify entonces use margin para todos los lados*/
+
+   margin-left: 20%;
+   margin-top: 8%;
+   margin-right: 20%;
+   font-family: Arial, sans-serif;
+   background: #f6f6f6;
+   text-align: left;
+   margin-bottom: 8%;
+   color: #611B24;
+    
+}
+
+.contact { 
+    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Arial, sans-serif;
+    background: #f6f6f6;
+    color: #611B24;
+    text-align: justify;
+     
+}
+
+.imagenprincipal img {
+    width: 30%; 
+    height: auto;          
+    opacity: 0.5;         
+    margin: auto;
+}
+
+/* use chatgpt para poner mi texto encima de la imagen 
+(solo en el apartado de home)*/
+
+.imagenprincipal { 
+    position: relative;   
+    width: 100%;
+    text-align: center;
+}
+
+.titulo-sobre-imagen {
+    position: absolute;   
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    padding: 20px 40px;
+
+}
+.titulo-sobre-imagen h1 {
+    font-size:  280% ;
+    color:  #611B24
+    
+
+}
+/* hasta aca */
+
+/* Queria hacer un mismo codigo para las imagenes pero algunos 
+apartados tenian mas imagenes y de diferentes tamaños entonces me toco 
+uno por uno */
+
+.imagenesvase img { 
+    width: auto ;
+    height: 520px;
+    object-fit: contain;
+    position: flex;
+    flex-direction: row;
+   justify-content: center;
+}
+
+.imagenesbench img {
+    width: auto ;
+    height: 255px;
+    object-fit: contain;
+    align-items: center;
+   
+}
+
+.imageneskidsbench img {
+    width: auto ;
+    height: 250px;
+    object-fit: contain;
+    align-items: center;
+   
+}
+.imagenesperfume img {
+    width: auto ;
+    height: 390px;
+    object-fit: contain;
+    align-items: center;
+   
+}
+
+
+/* para el boton */
+.boton {
+    display: block;
+    margin: 40px auto;
+    padding: 12px 30px;
+
+    background-color: #611B24;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.boton:hover {
+    background-color: #6E7A57;
+}
+

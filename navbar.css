@@ -1,0 +1,16 @@
+.navbar {
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar a {
+  margin-right: 20px;
+  color: #611B24;
+  text-decoration:none ;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #C0677C;
+}
