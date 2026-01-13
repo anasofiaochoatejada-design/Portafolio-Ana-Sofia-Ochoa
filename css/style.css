@@ -89,21 +89,19 @@ uno por uno */
     flex-direction: row;
    justify-content: center;
 }
-
-.imagenesbench img {
-    width: 100%;
-    height: 255px;
-    object-fit: contain;
-    align-items: center;
-   display-items: flex;
+.imagenesbench {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  align-items: center;
 }
 
+
 .imageneskidsbench img {
-    width: 100%;
-    height: 250px;
-    object-fit: contain;
-    align-items: center;
-   display-items: flex;
+display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  align-items: center;
 }
 .imagenesperfume img {
     width: auto ;
@@ -132,6 +130,7 @@ uno por uno */
 .boton:hover {
     background-color: #6E7A57;
 }
+
 
 
 
