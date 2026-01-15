@@ -115,6 +115,9 @@ body {
   .titulo-sobre-imagen h1 {
     font-size: 40px;
   }
+    .titulo-sobre-imagen h2 {
+    font-size: 30px;
+  }
 
   .imagenprincipal img {
     width: 70%;
@@ -143,6 +146,7 @@ body {
     height: 220px;
   }
 }
+
 
 
 
