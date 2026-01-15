@@ -77,21 +77,12 @@ body {
 }
 /* hasta aca */
 
-/* Queria hacer un mismo codigo para las imagenes pero algunos 
-apartados tenian mas imagenes y de diferentes tamaños entonces me toco 
-uno por uno */
-
-.imagenesvase img { 
-    width: auto ;
-    height: 520px;
-    object-fit: contain;
-    position: flex;
-    flex-direction: row;
-   justify-content: center;
-}
+/* Queria hacer un mismo codigo para las imagenes  */
 
 .imagenesbench,
-.imageneskidsbench {
+.imageneskidsbench, 
+.imagenesvase,
+.imagenesperfume {
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -101,21 +92,13 @@ uno por uno */
 }
 
 .imagenesbench img,
-.imageneskidsbench img {
-  height: 220px;        /* mismo alto */
-  width: auto;          /* NO se deforma el ancho */
-  object-fit: contain;  /* nunca se corta */
+.imageneskidsbench img,
+imagenesvase img,
+.imagenesperfume img{
+  height: 220px;        
+  width: auto;         
+  object-fit: contain;  
   display: block;
-}
-
-
-
-.imagenesperfume img {
-    width: auto ;
-    height: 390px;
-    object-fit: contain;
-    align-items: center;
-   
 }
 
 
@@ -207,6 +190,7 @@ uno por uno */
     margin: 0 auto 24px auto;
   }
 }
+
 
 
 
