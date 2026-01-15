@@ -138,6 +138,44 @@ uno por uno */
     background-color: #6E7A57;
 }
 
+@media (max-width: 768px) {
+
+  /* galerías de imágenes (bench / kids bench) */
+  .imagenesbench,
+  .imageneskidsbench {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    overflow-x: auto;        /* scroll lateral */
+    overflow-y: hidden;
+    padding-bottom: 20px;
+    scroll-snap-type: x mandatory;
+  }
+
+  .imagenesbench img,
+  .imageneskidsbench img {
+    height: 200px;
+    width: auto;
+    flex-shrink: 0;          /* evita que se aplasten */
+    object-fit: contain;
+    scroll-snap-align: center;
+  }
+
+  /* separa imagen principal del texto */
+  .imagen-principal,
+  .hero-image,
+  .main-image {
+    margin-bottom: 24px;
+  }
+
+  /* texto sigue centrado */
+  .texto,
+  .descripcion,
+  .content {
+    text-align: center;
+  }
+}
+
 
 
 
