@@ -90,8 +90,10 @@ body {
     overflow-x: auto;     /* scroll SOLO aquí */
     overflow-y: hidden;
     width: 100%;
-    gap: 16px;
-    margin-bottom: 32px;
+    justify-content: center;   
+  align-items: center;
+  gap: 20px;
+    margin-bottom: 20px;
   }
 
   /* IMÁGENES */
@@ -99,7 +101,7 @@ body {
   .imageneskidsbench img,
   .imagenesvase img,
   .imagenesperfume img {
-    flex: 0 0 auto;       /* 🔑 CLAVE: NO 100% */
+    flex: 0 0 auto;      
     height: 220px;
     width: auto;
     object-fit: contain;
@@ -199,6 +201,7 @@ body {
     margin: 0 auto 24px auto;
   }
 }
+
 
 
 
