@@ -1,4 +1,4 @@
-
+@media (max-width: 768px) {
 body {
     margin: 0;
     padding: 0;
@@ -6,7 +6,6 @@ body {
     background: #f6f6f6;
 
 }
-
 
 .home {
     margin: auto;
@@ -17,7 +16,6 @@ body {
     color: #611B24;
     text-align: center;
    
-    
 }
 
 .texto{  /*no se me estaba queriendo centrar del todo con text
@@ -31,7 +29,11 @@ body {
    text-align: left;
    margin-bottom: 8%;
    color: #611B24;
-    
+    position: static 
+    font-size: 40px;
+    line-height: 1.1;
+    margin: 24px 16px 16px 16px;
+    text-align: center;
 }
 
 .contact { 
@@ -78,7 +80,6 @@ body {
 /* hasta aca */
 
 /* Queria hacer un mismo codigo para las imagenes  */
-@media (max-width: 768px) {
 
   /* CONTENEDOR DE IMÁGENES */
   .imagenesbench,
@@ -110,9 +111,6 @@ body {
 }
 
 
-
-
-
 /* para el boton */
 .boton {
     display: block;
@@ -132,8 +130,6 @@ body {
     background-color: #6E7A57;
 }
 
-@media (max-width: 768px) {
-@media (max-width: 768px) {
 
   /* TODAS las galerías de imágenes de proyectos */
   .imagenesbench,
@@ -173,34 +169,10 @@ body {
   }
 }
 
-@media (max-width: 768px) {
 
-  /* TÍTULO GRANDE lo arregle con chatgpt porque en el celular se veia mal*/
-  h1 {
-    position: static;        /* quita absolute */
-    font-size: 48px;         /* tamaño razonable móvil */
-    line-height: 1.1;
-    margin: 20px 0 16px 0;
-    text-align: center;
-  }
 
-  /* TEXTO DESCRIPTIVO */
-  p {
-    position: static;
-    margin-top: 0;
-    padding: 0 20px;
-    font-size: 16px;
-    line-height: 1.5;
-  }
 
-  /* IMAGEN PRINCIPAL */
-  img {
-    max-width: 90%;
-    height: auto;
-    display: block;
-    margin: 0 auto 24px auto;
-  }
-}
+
 
 
 
