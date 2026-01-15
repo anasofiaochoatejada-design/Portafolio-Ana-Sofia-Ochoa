@@ -93,13 +93,16 @@ body {
 
 .imagenesbench img,
 .imageneskidsbench img,
-imagenesvase img,
-.imagenesperfume img{
-  height: 220px;        
-  width: auto;         
-  object-fit: contain;  
+.imagenesvase img,
+.imagenesperfume img {
+  flex: 0 0 100%;
+  max-width: 100%;
+  height: 260px;        
+  object-fit: contain;
+  scroll-snap-align: center;
   display: block;
 }
+
 
 
 /* para el boton */
@@ -190,6 +193,7 @@ imagenesvase img,
     margin: 0 auto 24px auto;
   }
 }
+
 
 
 
