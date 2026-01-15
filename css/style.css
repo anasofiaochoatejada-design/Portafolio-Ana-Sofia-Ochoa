@@ -44,6 +44,11 @@ body {
   margin: 0;
   color: #611B24;
 }
+.titulo-sobre-imagen h2 {
+  font-size: 38px;
+  margin: 0;
+  color: #611B24;
+}
 
 .texto {
   max-width: 700px;
@@ -138,6 +143,7 @@ body {
     height: 220px;
   }
 }
+
 
 
 
