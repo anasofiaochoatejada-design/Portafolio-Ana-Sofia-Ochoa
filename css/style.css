@@ -12,7 +12,7 @@ body {
   margin: auto;
   max-width: 1200px;
   padding: 0 10%;
-  text-align: left;
+  text-align: center;
 }
 
 /* home,imagen y titulo*/
@@ -138,6 +138,7 @@ body {
     height: 220px;
   }
 }
+
 
 
 
