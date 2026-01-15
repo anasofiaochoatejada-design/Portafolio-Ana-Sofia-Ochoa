@@ -55,25 +55,28 @@ body {
 
 /* imagenes*/
 
+/* AJUSTE SOLO PARA DESKTOP */
+
 .imagenesbench,
 .imageneskidsbench,
 .imagenesvase,
 .imagenesperfume {
   display: flex;
-  justify-content: center;
+  justify-content: center;   /* centra las imágenes */
   align-items: center;
   gap: 20px;
-  margin-bottom: 40px;
+  max-width: 1200px;         /* evita que se estiren */
+  margin: 40px auto;
 }
 
 .imagenesbench img,
 .imageneskidsbench img,
 .imagenesvase img,
 .imagenesperfume img {
-  height: 220px;
+  max-height: 220px;         /* 🔑 controla tamaño en desktop */
   width: auto;
+  height: auto;
   object-fit: contain;
-  display: block;
 }
 
 /* BOTÓN*/
@@ -135,6 +138,7 @@ body {
     height: 220px;
   }
 }
+
 
 
 
