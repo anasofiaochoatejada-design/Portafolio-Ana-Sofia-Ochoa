@@ -139,40 +139,72 @@ uno por uno */
 }
 
 @media (max-width: 768px) {
+@media (max-width: 768px) {
 
-  /* galerías de imágenes (bench / kids bench) */
+  /* TODAS las galerías de imágenes de proyectos */
   .imagenesbench,
-  .imageneskidsbench {
+  .imageneskidsbench,
+  .imagenesvase,
+  .imagenesperfume,
+  .imagenesbench img,
+  .imageneskidsbench img,
+  .imagenesvase img,
+  .imagenesperfume img {
+    box-sizing: border-box;
+  }
+
+  .imagenesbench,
+  .imageneskidsbench,
+  .imagenesvase,
+  .imagenesperfume {
     display: flex;
     flex-direction: row;
-    gap: 16px;
-    overflow-x: auto;        /* scroll lateral */
+    overflow-x: auto;
     overflow-y: hidden;
-    padding-bottom: 20px;
     scroll-snap-type: x mandatory;
+    width: 100%;
+    margin-bottom: 32px;
   }
 
   .imagenesbench img,
-  .imageneskidsbench img {
-    height: 200px;
-    width: auto;
-    flex-shrink: 0;          /* evita que se aplasten */
+  .imageneskidsbench img,
+  .imagenesvase img,
+  .imagenesperfume img {
+    flex: 0 0 100%;      /* UNA imagen por pantalla */
+    max-width: 100%;
+    height: auto;
     object-fit: contain;
     scroll-snap-align: center;
+    display: block;
   }
+}
 
-  /* separa imagen principal del texto */
-  .imagen-principal,
-  .hero-image,
-  .main-image {
-    margin-bottom: 24px;
-  }
+@media (max-width: 768px) {
 
-  /* texto sigue centrado */
-  .texto,
-  .descripcion,
-  .content {
+  /* TÍTULO GRANDE lo arregle con chatgpt porque en el celular se veia mal*/
+  h1 {
+    position: static;        /* quita absolute */
+    font-size: 48px;         /* tamaño razonable móvil */
+    line-height: 1.1;
+    margin: 20px 0 16px 0;
     text-align: center;
+  }
+
+  /* TEXTO DESCRIPTIVO */
+  p {
+    position: static;
+    margin-top: 0;
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  /* IMAGEN PRINCIPAL */
+  img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto 24px auto;
   }
 }
 
